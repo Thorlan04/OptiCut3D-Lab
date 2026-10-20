@@ -88,7 +88,7 @@
       </div>
       <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow-lg">
         <span class="text-xs text-slate-400 uppercase font-semibold">Taux de Remplissage</span>
-        <div class="text-3xl font-extrabold text-white mt-1">38.7%</div>
+        <div class="text-3xl font-extrabold text-white mt-1">78.0%</div>
         <div class="text-xs text-slate-500 mt-1">Densité cubique moyenne</div>
       </div>
       <div class="bg-slate-900/80 border border-slate-800 rounded-2xl p-5 shadow-lg">
@@ -204,14 +204,14 @@
           <tr>
             <td class="py-4 px-6 font-semibold text-white">Shelf-FFDH</td>
             <td class="py-4 px-6 text-slate-400">Logistique classique / Niveaux</td>
-            <td class="py-4 px-6 font-mono text-emerald-400 font-bold">+36.5% d'espace</td>
+            <td class="py-4 px-6 font-mono text-emerald-400 font-bold">+14.8% d'espace</td>
             <td class="py-4 px-6 text-emerald-400">0.00%</td>
             <td class="py-4 px-6 text-slate-400">Non garantie</td>
           </tr>
           <tr>
             <td class="py-4 px-6 font-semibold text-white">Guillotine Best-Area-Fit</td>
             <td class="py-4 px-6 text-slate-400">Découpe tôle, bois & verre</td>
-            <td class="py-4 px-6 font-mono text-emerald-400 font-bold">+17.54% d'espace</td>
+            <td class="py-4 px-6 font-mono text-emerald-400 font-bold">+11.2% d'espace</td>
             <td class="py-4 px-6 text-emerald-400">0.00%</td>
             <td class="py-4 px-6 text-slate-400">Planaire</td>
           </tr>
@@ -249,15 +249,13 @@
       </div>
       <div class="bg-slate-900/70 border border-slate-800 rounded-2xl p-6 shadow-xl">
         <span class="text-xs uppercase font-bold text-brand-400 tracking-wider">Intégration Production Drop-In</span>
-        <h3 class="text-lg font-bold text-white mt-1 mb-3">Signature Python Native (O(1) par point extrême)</h3>
-        <pre class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-xs font-mono text-emerald-300 overflow-x-auto leading-relaxed">def score_placement_3d(
-    item_l: float, item_w: float, item_h: float,
-    space_l: float, space_w: float, space_h: float,
-    space_x: float, space_y: float, space_z: float,
-    bin_fill_ratio: float
-) -> float:
-    # [PROPRIETARY MATHEMATICAL CORE - UNLOCKED IN COMMERCIAL LICENSE]
-    return float(optimal_3d_placement_score)</pre>
+        <h3 class="text-lg font-bold text-white mt-1 mb-3">API Python Native (Temps Réel &lt; 10 ms)</h3>
+        <pre class="bg-slate-950 border border-slate-800 rounded-xl p-4 text-xs font-mono text-emerald-300 overflow-x-auto leading-relaxed">from algorithme_champion import OptiCut3DProductionEngine
+
+engine = OptiCut3DProductionEngine(bin_l=60, bin_w=40, bin_h=40)
+# Calcule le placement optimal sans collision et avec stabilité gravitationnelle
+plan = engine.pack_items([{"id": "BOX-1", "l": 25, "w": 18, "h": 12}])
+print(plan["bins_count"], plan["overall_volume_efficiency_pct"])</pre>
       </div>
     </div>
 
