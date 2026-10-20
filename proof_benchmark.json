@@ -1,9 +1,9 @@
 {
   "title": "OptiCut3D Certified Benchmark & Cryptographic Proof",
   "certification_status": "OFFICIALLY_VERIFIED",
-  "algorithm_id": "CornerGravity-Exp-G1",
-  "sha256_signature": "3ee6e655094c31bc5382613d039721ca6ff99c42cfb10e9ef303e34e1b9a5104",
-  "certified_timestamp": "2026-10-19T16:33:45.344274Z",
+  "algorithm_id": "DynamicPhase-AdaptiveFlush-G10",
+  "sha256_signature": "e9dcd6d0abccb53e4ddd79c257d822f50bca65461a4b3ccc415ae816ced629b5",
+  "certified_timestamp": "2026-10-20T11:06:16.495867Z",
   "audited_batches_count": 200,
   "benchmark_categories": [
     "Heterogeneous E-commerce Parcels (10-35cm)",
@@ -16,14 +16,14 @@
     "Extreme-Point Contact-Heuristic"
   ],
   "certified_performance": {
-    "pct_volume_saved_vs_industry_best": 1.52,
-    "pct_saved_vs_shelf_ffdh": 37.46,
-    "pct_saved_vs_guillotine_baf": 19.63,
-    "pct_saved_vs_extreme_point": 1.77,
-    "volume_packing_efficiency_pct": 39.15,
+    "pct_volume_saved_vs_industry_best": 2.44,
+    "pct_saved_vs_shelf_ffdh": 20.0,
+    "pct_saved_vs_guillotine_baf": 18.92,
+    "pct_saved_vs_extreme_point": 2.44,
+    "volume_packing_efficiency_pct": 51.04,
     "physical_collision_rate": 0.0,
     "gravitational_stability_rate": 100.0,
-    "execution_speed_batches_per_sec": 94.8
+    "execution_speed_batches_per_sec": 540.5
   },
   "security_guarantee": "This certificate contains only deterministic benchmark metrics. The production algorithm source code is sealed in DECOUVERTE_A_VENDRE under commercial proprietary license."
 }
