@@ -67,7 +67,7 @@ def evaluate_placement_candidate(
 ### Commercial Package File Structure:
 Delivered immediately upon commercial licensing via Polar.sh:
 ```
-DECOUVERTE_A_VENDRE/
+
 ├── algorithme_champion.py        # Production-ready 3D packing engine with rotation & support logic
 ├── RAPPORT_EXECUTIF_LOGISTIQUE.md # B2B logistics whitepaper & freight ROI calculator
 ├── SHA256_CERTIFICATE.txt        # Cryptographic certificate of authenticity & anteriority
