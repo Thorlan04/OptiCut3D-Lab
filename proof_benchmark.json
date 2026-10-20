@@ -25,5 +25,5 @@
     "gravitational_stability_rate": 100.0,
     "execution_speed_batches_per_sec": 25.5
   },
-  "security_guarantee": "This certificate contains only deterministic benchmark metrics. The production algorithm source code is sealed in DECOUVERTE_A_VENDRE under commercial proprietary license."
+  "security_guarantee": "This certificate contains only deterministic benchmark metrics. The production algorithm source code is sealed under commercial proprietary license."
 }
