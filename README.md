@@ -22,7 +22,7 @@ Legacy warehouse software still defaults to rigid shelf heuristics (*Shelf-FFDH*
 For an e-commerce fulfillment center shipping **500,000 parcel containers/pallets annually** at an average freight and handling cost of **$18.00 / bin** (**$9,000,000 / year**):
 - **Shelf-FFDH (Legacy Baseline)**: Consumes **780,000 bins**.
 - **Combined Industry Best**: Consumes **505,000 bins**.
-- **OptiCut3D Champion (`OptiCutHyperSpaceBalance_G167_5`)**: Packs the exact same parcel catalog into **495,000 bins** (**-10,000 bins** vs Best, **-285,000 bins** vs Legacy).
+- **OptiCut3D Champion (`OptiCutHyperSpaceBalance_G2421_1`)**: Packs the exact same parcel catalog into **495,000 bins** (**-10,000 bins** vs Best, **-285,000 bins** vs Legacy).
 - **Direct Annual Savings**: **$180,000 to $1,575,000 / year** in corrugated cardboard, void fill, and LTL transport costs.
 
 ---
@@ -36,7 +36,7 @@ Evaluated across **200 diverse parcel distributions** (50 boxes per batch, dimen
 | **Shelf-FFDH** *(First-Fit Decreasing Height)* | `3.11` | `25.26%` | `0.0%` | -38.26% vs Champion | Deprecated Legacy |
 | **Guillotine Best-Area-Fit (BAF)** | `2.39` | `32.79%` | `0.0%` | -19.83% vs Champion | Common Industry |
 | **Combined Industry Best (Extreme-Point)** | `2.02` | `38.88%` | `0.0%` | Baseline (-4.95% vs Champion) | Top Commercial |
-| **OptiCut3D Champion (`OptiCutHyperSpaceBalance_G167_5`)** | **`1.92`** | **`40.91%`** | **`0.0%`** | **+4.95% vs Best (+19.83% vs BAF, +38.26% vs Shelf)** | **CERTIFIED CHAMPION** |
+| **OptiCut3D Champion (`OptiCutHyperSpaceBalance_G2421_1`)** | **`1.92`** | **`40.91%`** | **`0.0%`** | **+4.95% vs Best (+19.83% vs BAF, +38.26% vs Shelf)** | **CERTIFIED CHAMPION** |
 
 ### Mathematical Core Innovations:
 1. **Non-Linear Corner-Fitness & Residual Convex Hull**: Rewards placement configurations that form tightly interlocking concave corners while penalizing unusable sliver voids.
